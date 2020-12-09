@@ -1,12 +1,15 @@
 import * as React from 'react';
 
-import { Container, Text } from './style';
+import { Container, Text, Span, Button } from './style';
 
 export default function Home() {
 
   return (
     <Container>
-      <Text>Primeiro Passo</Text>
+      <Text>Como instalar <Span>React Native</Span> no seu Pc? </Text>
+      <Button>
+        <Text>Aprender</Text>
+      </Button>
     </Container>
   );
 }
