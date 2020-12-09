@@ -10,14 +10,13 @@ export const Container = styled.View`
 `;
 
 export const Text = styled.Text`
-  font-size: 35px;
+  font-size: 40px;
   font-family: "Poppins_500Medium"
   color: #605F5E;
 `;
 
 export const Span = styled.Text`
-  font-size: 40px;
-  color: #68C2F3;
+  color: #026e00;
 `;
 
 export const ButtonText = styled.Text`

@@ -1,17 +1,18 @@
 import * as React from "react";
 
 import { Container, Text, Span, Button, ButtonText } from "./style";
+import { FontAwesome5 } from '@expo/vector-icons';
 import { TouchableOpacity, StyleSheet} from "react-native";
 
-export default function Home({navigation}) {
+export default function Second({navigation}) {
   return (
     <Container>
       <Text>
-        Como instalar <Span>React Native</Span> no seu Pc?{" "}
+        Primeiro você deve instalar o <FontAwesome5 name="node-js" size={40} color="#026e00" /><Span> Node.js!</Span>
       </Text>
-      <TouchableOpacity style={styles.containerButton} onPress={()=> navigation.navigate('Second')}>
+      <TouchableOpacity style={styles.containerButton}>
         <Button>
-          <ButtonText>Aprender</ButtonText>
+          <ButtonText>Proximo passo</ButtonText>
         </Button>
       </TouchableOpacity>
     </Container>
